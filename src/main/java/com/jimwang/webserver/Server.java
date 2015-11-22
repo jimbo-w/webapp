@@ -19,6 +19,8 @@ public class Server extends AbstractVerticle {
     @Override
     public void start() throws Exception {
 
+        // Making a trivial change
+
         Vertx vertx = Vertx.vertx();
         Router router = Router.router(vertx);
 
